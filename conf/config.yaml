@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - dataset: imagenet.yaml
+  - optim: sgd.yaml
+
+dataset: 
+  name: cifar10
+  path: /datasets/cifar10
+
+model:
+  name: swin
+  path: ${hydra:runtime.cwd}/swin_transformer.pt
