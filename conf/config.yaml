@@ -10,3 +10,5 @@ dataset:
 model:
   name: swin
   path: ${hydra:runtime.cwd}/swin_transformer.pt
+
+nc: [a, b, c, d]

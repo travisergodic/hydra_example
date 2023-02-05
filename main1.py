@@ -1,5 +1,4 @@
 import hydra
-from hydra.core.hydra_config import HydraConfig
 from hydra.core.config_store import ConfigStore
 
 from conf.config import MyConfig
